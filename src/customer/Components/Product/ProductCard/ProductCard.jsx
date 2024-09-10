@@ -4,11 +4,12 @@ import{useLocation, useNavigate} from "react-router-dom";
 
 const ProductCard = ({ product }) => {
   const { title, brand, imageUrl, price ,discountedPrice,color,discountPersent} = product;
+  console.log(product);
   const navigate= useNavigate();
   
   // console.log("product",product)
 
-  const handleNavigate=()=>{
+  const handleNavigate=()=>{ 
     navigate(`/product/${product?.id || product?._id || 2}`)
   }
 

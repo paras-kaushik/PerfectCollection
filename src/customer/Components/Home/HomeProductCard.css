@@ -1,0 +1,37 @@
+/* Mobile view (default) */
+.product-card {
+
+    height: 420px;
+    margin-right: 1rem;
+  }
+  .product-image {
+    height: 240px;
+  }
+  .product-description {
+
+  }
+  
+  
+  /* Tablet view (min-width: 768px) */
+  @media (min-width: 768px) {
+    .product-card {
+
+    }
+    .product-description {
+    
+    }
+  }
+  
+  /* Desktop view (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .product-card {
+ 
+    }
+    .product-title {
+      font-size: 36px;
+    }
+    .product-description {
+      font-size: 24px;
+    }
+  }
+  

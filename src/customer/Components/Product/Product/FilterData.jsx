@@ -11,29 +11,16 @@ export const color = [
 
 export const filters = [
   {
-    id: "color",
-    name: "Color",
+    id: "category",
+    name: "Kurta Category",
     options: [
-      { value: "white", label: "White" },
-      { value: "beige", label: "Beige" },
-      { value: "blue", label: "Blue" },
-      { value: "brown", label: "Brown" },
-      { value: "green", label: "Green" },
-      { value: "purple", label: "Purple" },
-      {value:"yellow",label:"Yellow"}
+      { value: "Evergreen White", label: "Evergreen White" },
+      { value: "Embroidery White", label: "Embroidery White" },
+      { value: "Chikankari Sets", label: "Chikankari Sets" },
+      { value: "Dhoti Stitched/UnStitched", label: "Dhoti Stitched/UnStitched" },
     ],
   },
 
-  {
-    id: "size",
-    name: "Size",
-    options: [
-      { value: "S", label: "S" },
-      { value: "M", label: "M" },
-      { value: "L", label: "L" },
-    ],
-  },
-  
 ];
 
 export const singleFilter=[

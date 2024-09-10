@@ -14,23 +14,20 @@ const HomeProductSection = ({ section, data }) => {
 
   const responsive = {
     0: {
-      items: 2,
+      items: 1,
       itemsFit: "contain",
     },
     568: {
-      items: 3,
+      items: 2,
       itemsFit: "contain",
     },
     1024: {
-      items: 5.5,
+      items: 4,
       itemsFit: "contain",
     },
   };
-  const items = data?.slice(0, 10).map((item) => (
-    <div className="">
-      {" "}
+  const items = data.map((item) => (
       <HomeProductCard product={item} />
-    </div>
   ));
 
   // const slideInFromRight = (t) => {
@@ -39,7 +36,7 @@ const HomeProductSection = ({ section, data }) => {
 
   return (
     <div className="relative px-4 sm:px-6 lg:px-8 ">
-      <h2 className="text-2xl font-extrabold text-gray-900 py-5">{section}</h2>
+      <h2 className="text-4xl font-extrabold text-gray-900 py-5">{section}</h2>
       <div className="relative border p-5">
         <AliceCarousel
           disableButtonsControls
@@ -52,7 +49,7 @@ const HomeProductSection = ({ section, data }) => {
           animationType="fadeout"
           animationDuration={2000}
         />
-        {activeIndex !== items.length - 5 && (
+        
           <Button
             onClick={slideNext}
             variant="contained"
@@ -71,9 +68,9 @@ const HomeProductSection = ({ section, data }) => {
               sx={{ transform: "rotate(-90deg)" }}
             />
           </Button>
-        )}
+        
 
-        {activeIndex !== 0 && (
+        
           <Button
             onClick={slidePrev}
             variant="contained"
@@ -92,7 +89,7 @@ const HomeProductSection = ({ section, data }) => {
               sx={{ transform: " rotate(90deg)" }}
             />
           </Button>
-        )}
+        
       </div>
     </div>
   );

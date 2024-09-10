@@ -150,7 +150,7 @@ const ProductsTable = () => {
           </Grid>
         </Grid>
       </Card> */}
-
+      <h1>You are viewing the Product table</h1>
       <Card className="mt-2">
         <CardHeader
           title="All Products"

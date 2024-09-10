@@ -34,9 +34,9 @@ const CreateProductForm = () => {
     discountPersent: "",
     size: initialSizes,
     quantity: "",
-    topLavelCategory: "",
-    secondLavelCategory: "",
-    thirdLavelCategory: "",
+    topLevelCategory: "",
+    secondLevelCategory: "",
+    thirdLevelCategory: "",
     description: "",
   });
 const dispatch=useDispatch();
@@ -168,8 +168,8 @@ const jwt=localStorage.getItem("jwt")
             <FormControl fullWidth>
               <InputLabel>Top Level Category</InputLabel>
               <Select
-                name="topLavelCategory"
-                value={productData.topLavelCategory}
+                name="topLevelCategory"
+                value={productData.topLevelCategory}
                 onChange={handleChange}
                 label="Top Level Category"
               >
@@ -183,8 +183,8 @@ const jwt=localStorage.getItem("jwt")
             <FormControl fullWidth>
               <InputLabel>Second Level Category</InputLabel>
               <Select
-                name="secondLavelCategory"
-                value={productData.secondLavelCategory}
+                name="secondLevelCategory"
+                value={productData.secondLevelCategory}
                 onChange={handleChange}
                 label="Second Level Category"
               >
@@ -198,8 +198,8 @@ const jwt=localStorage.getItem("jwt")
             <FormControl fullWidth>
               <InputLabel>Third Level Category</InputLabel>
               <Select
-                name="thirdLavelCategory"
-                value={productData.thirdLavelCategory}
+                name="thirdLevelCategory"
+                value={productData.thirdLevelCategory}
                 onChange={handleChange}
                 label="Third Level Category"
               >

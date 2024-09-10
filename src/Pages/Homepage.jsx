@@ -9,6 +9,10 @@ import { kurtaPage1 } from "../Data/Kurta/kurta";
 import { mensShoesPage1 } from "../Data/shoes";
 import { mens_kurta } from "../Data/Men/men_kurta";
 import { lengha_page1 } from "../Data/Women/LenghaCholi";
+import { homepage_kurta_category } from "../Data/Men/homepage_kurta_category";
+import './HomePage.css'
+import StoreInfo from "../customer/Components/Home/StoreInfo";
+import SocialLinks from "../customer/Components/Home/SocialLinks";
 
 const Homepage = () => {
 
@@ -17,14 +21,15 @@ const Homepage = () => {
       <HomeCarousel images={homeCarouselData} />
 
       <div className="space-y-10 py-20">
-        <HomeProductSection data={mens_kurta} section={"Men's Kurta"} />
-        {/* <HomeProductSection data={mensShoesPage1} section={"Men's Shoes"} />
-        <HomeProductSection data={lengha_page1} section={"Lengha Choli"} />
-        <HomeProductSection data={sareePage1} section={"Saree"} />
-        <HomeProductSection data={dressPage1} section={"Dress"} />
-        <HomeProductSection data={gounsPage1} section={"Women's Gouns"} />
-        <HomeProductSection data={kurtaPage1} section={"Women's Kurtas"} /> */}
-        {/* <HomeProductSection data={mensPantsPage1} section={"Men's Pants"} /> */}
+        <HomeProductSection data={homepage_kurta_category} section={"Men's Kurta Categories"} />
+        <SocialLinks/>
+        <StoreInfo/>
+        
+       
+        
+
+      
+
       </div>
 
 
