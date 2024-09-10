@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/paras-kaushik/PerfectCollection/static/css/main.8524e056.css",
+    "main.js": "/paras-kaushik/PerfectCollection/static/js/main.b2fe064c.js",
+    "static/js/787.46493d11.chunk.js": "/paras-kaushik/PerfectCollection/static/js/787.46493d11.chunk.js",
+    "index.html": "/paras-kaushik/PerfectCollection/index.html",
+    "main.8524e056.css.map": "/paras-kaushik/PerfectCollection/static/css/main.8524e056.css.map",
+    "main.b2fe064c.js.map": "/paras-kaushik/PerfectCollection/static/js/main.b2fe064c.js.map",
+    "787.46493d11.chunk.js.map": "/paras-kaushik/PerfectCollection/static/js/787.46493d11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8524e056.css",
+    "static/js/main.b2fe064c.js"
+  ]
+}
